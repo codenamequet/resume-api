@@ -4,6 +4,14 @@ const fs = require('fs')
 const resume = JSON.parse(fs.readFileSync('./resume.json'))
 const port = process.env.PORT || 4000
 
+app.get('/', (req, res) => {
+    res.send(resume)
+})
+
+app.listen(port, () => {
+    console.log('It\'s Lit!!! 🔥🔥🔥')
+})
+
 // const general = jsonObj
 //     .filter(g => g.type === "general")
     // .forEach(g => { 
@@ -18,11 +26,3 @@ const port = process.env.PORT || 4000
 
 // const project = jsonObj
 //     .filter(p => p.type === "project")
-
-app.get('/', (req, res) => {
-    res.send(resume)
-})
-
-app.listen(port, () => {
-    console.log('It\'s Lit!!! 🔥🔥🔥')
-})
