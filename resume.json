@@ -1,0 +1,78 @@
+[
+    { 
+        "type": "general",
+        "name": "Marquet Reid",
+        "phoneNumber": "(240)-459-5255",
+        "email": "marquet@marquetreid.com",
+        "website": "http://marquetreid.com",
+        "github": "http://github.com/codenamequet",
+        "location": "Laurel, MD"
+    },
+    {
+        "type": "brand-statement",
+        "quote": "I am a self-motivated web developer with a drive for solving problems. When working on a project I am always optimistic about the outcome due to my natural intuition. The combination of my focus, attention to detail, and critical thinking makes me an asset to any team or enviroment."
+    },
+    {
+        "type": "project",
+        "name": "Style Board",
+        "url": "https://marquet-project-2.herokuapp.com",
+        "description": "made an app"
+    },
+    {
+        "type": "project",
+        "name": "Dollar Beer Club",
+        "url": "https://codenamequet.github.io/beer-club-front-end",
+        "description": "made an app"
+    },
+    {
+        "type": "project",
+        "name": "Simon",
+        "url": "https://codenamequet.github.io/simon",
+        "description": "made an app"
+    },
+    {
+        "type": "award",
+        "name": "First Place - Firebase Hackathon",
+        "company": "DCDevFest",
+        "location": "Tysons, VA",
+        "date": "October 2017",
+        "description": "Won first place!"
+    },
+    {
+        "type": "experience",
+        "name": "Web Developement Immersive Student",
+        "company": "General Assembly",
+        "location": "Washington, DC",
+        "date": "12/2017 - 2/2018",
+        "description": "Got through it!"
+    },
+    {
+        "type": "experience",
+        "name": "Senior Cyber Intelligence Analyst",
+        "company": "LookingGlass Cyber Solutions",
+        "location": "Reston, VA",
+        "date": "1/2016 - 2/2018",
+        "description": "Cyber Intelligence stuff"
+    },
+    {
+        "type": "experience",
+        "name": "Cyber Intelligene Analyst",
+        "company": "Cyveillance",
+        "location": "Reston, VA",
+        "date": "2/2011 - 1/2016",
+        "description": "Started as an intern"
+    },
+    {
+        "type": "skills",
+        "languages and frameworks": ["HTML", "CSS", "Javascript", "React"],
+        "databases": ["MongoDB", "Postgresql"],
+        "management and deployment": ["Git", "Github", "Heroku"]
+    },
+    {
+        "type": "education",
+        "program": "Web Development Immersive",
+        "school": "General Assembly",
+        "location": "Washington, DC",
+        "date": "12/2017 - 3/2017"
+    }
+]
